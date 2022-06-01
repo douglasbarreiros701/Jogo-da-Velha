@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #595757;
+  border: 1px solid #305762;
+  display: inline-block;
+}
+
+.o {
+  position: relative;
+}
+
+.o:after {
+  position: absolute;
+  content: "🛡️";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.x {
+  position: relative;
+}
+.x:after {
+  position: absolute;
+  content: "⚔️";
+  font-size: 50px;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
